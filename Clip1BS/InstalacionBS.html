@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Creative - Start Bootstrap Theme</title>
+        <title>Instalacion Ubuntu - Tutoriales CLIP</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Recomendaciones.html">Recomendaciones</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Instalacion.html">Instalacion</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">Actualizacion</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
@@ -38,13 +38,12 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Actualiza Ubuntu a 20.04.1</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">Instala Ubuntu 20.04.1</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 font-weight-light mb-5">Si aún no tiene instalado Ubuntu en tu ordenador 
-                            y quieres dar una oportunidad a este sistema operativo tiene nuestra guia, paso a paso</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="Instalacion.html">Instalacion desde 0</a>
+                        <p class="text-white-75 font-weight-light mb-5">Si ya tiene Obuntu y quiere actualizarlo, puede ver como en nuestra guia de actualizacion</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="index.html">Actualizar Ubuntu</a>
                     </div>
                 </div>
             </div>
@@ -54,105 +53,443 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">Novedades de Ubuntu 20.04.1</h2>
+                        <h2 class="text-white mt-0">Primeros pasos</h2>
                         <hr class="divider light my-4" />
                         <p >      
                           <ul class="text-white-50 mb-4">
-                       <li>la experiencia con el gestor de actualizaciones de Ubuntu,</li> 
-                       <li>Inclusión de nuevos drivers de NVIDIA para servidor</li>
-                       <li>Soporte para los últimos Intel Tiger Lake</li> 
-                       <li>Microcódigo para parchear los procesadores Skylake vulnerables</li>
-                       <li>Soporte durante 5 años</li>
-                          </ul></p>
-                        <a class="btn btn-light btn-xl js-scroll-trigger" href="https://wiki.ubuntu.com/FocalFossa/ReleaseNotes/ChangeSummary/20.04.1">Caracteristicas</a>
+                            Lo primero que necesitaremos para poder instalar Ubuntu en nuestra computadora es descargar el sistema operativo.
+                            Este podemos encontrarlo en la pagina oficial de Canonical, concretamente dentro de la pestaña <strong>«Download»</strong> de la parte superior.</p>
+                        <a class="btn btn-light btn-xl js-scroll-trigger" href="https://ubuntu.com/download/desktop">Descargar Ubuntu</a>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- actualizacion -->
-        <section class="page-section" id="services">
-            <div class="container">
-                <h2 class="text-center mt-0">Comando de actualizacion</h2>
-                <p class="text-muted mb-5">Para actualizar Ubuntu a la última
-                    versión lo que debemos hacer es abrir un terminal y ejecutar en él el
-                    siguiente comando:</p>
-                   
-                    <div class=" container text-center bg-dark text-white">
-                       
-                        <div>sudo apt update && sudo apt upgrade && sudo apt dist-upgrade</div>
-                    </div>
+        <!-- Instalacion -->
+        <section class="page-section " id="rufus">
+          
+            <div class="container col-md-6 ">
+            <h2 class="text-center mt-0 ">Que hacer una vez descargada la ISO</h2>
+           <h5 class="text-muted mb-5 text-centera"> Si vamos a instalar Ubuntu en una máquina virtual podremos
+                    hacerlo directamente desde la ISO. De lo contrario, tendremos que grabar la ISO a un DVD o, mejor aún,
+                    a una memoria USB. Para este proceso os recomendamos usar el programa <strong>Rufus</strong>,
+                    que podemos bajar de <a href="https://rufus.ie/es_ES.html">aqui</a>.
+                    Este programa nos permitirá crear una memoria USB de arranque a partir de cualquier imagen ISO. </h4>
+           
+                    <div id="portfolio">
+                        <div class="container-fluid  p-0">
+                            <div class="row">
+                              
+                                 <div class="col-md-4"></div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <a class="portfolio-box" href="JPG/Rufus.jpg">
+                                        <img class="img-fluid" src="JPG/Rufus.jpg" alt="" />
+                                        <div class="portfolio-box-caption">
+                                            <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                            <div class="project-name">Rufus</div>
+                                        </div>
+                                    </a>
+                                </div>
+                             </div>
                         </div>
-                
-        </section>
-        <!-- Portfolio-->
-        <div id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="JPG/LB/LB1.jpg">
-                            <img class="img-fluid" src="JPG/LB/LB1.jpg" alt="1" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Ubuntu</div>
-                                <div class="project-name">20.04.1</div>
-                            </div>
-                        </a>
                     </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="JPG/LB/LB2.jpg">
-                            <img class="img-fluid" src="JPG/LB/LB2.jpg" alt="2" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Ubuntu</div>
-                                <div class="project-name">20.04.1</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="JPG/LB/LB3.jpg">
-                            <img class="img-fluid" src="JPG/LB/LB3.jpg" alt="3" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Ubuntu</div>
-                                <div class="project-name">20.04.1</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="JPG/LB/LB4.jpg">
-                            <img class="img-fluid" src="JPG/LB/LB4.jpg" alt="4" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Ubuntu</div>
-                                <div class="project-name">20.04.1</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="JPG/LB/LB5.jpg">
-                            <img class="img-fluid" src="JPG/LB/LB5.jpg" alt="5" />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Ubuntu</div>
-                                <div class="project-name">20.04.1</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="JPG/Terminada.jpg">
-                            <img class="img-fluid" src="JPG/Terminada.jpg" alt="6" />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Ubuntu</div>
-                                <div class="project-name">20.04.1</div>
-                            </div>
-                        </a>
-                    </div>
+         <div class="container-fluid text-white">.</div>
+          
+         <h5 class="text-muted text-centera ">
+                Seleccionaremos la memoria USB donde queremos <strong>grabar Ubuntu</strong>, cargaremos la ISO y en un par de minutos ya
+                tendremos el medio de instalación creado. Eso sí, hay que tener en cuenta que durante el proceso se 
+                borrarán los datos de la memoria. Cuando acabe el proceso, lo único que nos quedará hacer es apagar 
+                el ordenador, <strong>grabar Ubuntu</strong> para que el ordenador arranque desde dicha memoria USB, y comenzará
+                el proceso de instalación de Ubuntu.
+           </h5>
+           
+           <div class="container-fluid text-white">.</div>
+           
+           <h1 class="text-center mt-0 ">
+               Instalar Ubuntu paso a paso
+           </h1>
+           
+           <div class="container-fluid text-white">.</div>
+            <h5 class="text-muted text-centera">
+               Ubuntu es un sistema operativo diseñado para arrancar en Modo Live, es decir, para cargarse en la memoria RAM 
+               desde la ISO y permitirnos probarlo sin instalar ni alterar nada del sistema. Lo primero que veremos cuando el 
+               sistema operativo acabe de cargar será una pantalla como la siguiente.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/BienvenidaObuntu.jpg">
+                                <img class="img-fluid" src="JPG/BienvenidaObuntu.jpg" alt=""/>
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Bienvenida de Obuntu</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
                 </div>
             </div>
+            
+            
+            
+            <h5 class="text-muted text-centera">
+            En ella tendremos que <strong>elegir nuestro idioma</strong>, y además también si queremos probar Ubuntu, o si queremos lanzar 
+            directamente el asistente de instalación. El resultado en ambos casos será el mismo, pero nosotros vamos a usar 
+            la opción de «probar» para poder cargar Ubuntu en el PC y poder usarlo mientras lo instalamos.
+            Cuando veamos el escritorio, aquí tendremos un icono llamado <strong>«Instalar Ubuntu»</strong>.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/Instalador.jpg">
+                                <img class="img-fluid" src="JPG/Instalador.jpg" alt="Instalador" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Instalador</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+
+            <h5 class="text-muted text-centera">
+            Hacemos doble clic sobre él para <strong>lanzar el asistente de instalación</strong>. Lo primero que nos encontraremos será
+            con la posibilidad de elegir el idioma del instalador, así como de leer las notas de publicación.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/IdiomaObuntu.jpg">
+                                <img class="img-fluid" src="JPG/IdiomaObuntu.jpg" alt="Idioma" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Eleccion de idioma</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+           <div class="container-fluid text-white">.</div> 
+           
+           <h5 class="text-muted text-centera">
+            Continuamos, y en el siguiente paso el asistente nos permitirá 
+            <strong>configurar el idioma y distribución del teclado</strong>.
+            Podemos elegirlo nosotros mismos de la lista, o dejar que el programa lo detecte automáticamente a través de 
+            una serie de pulsaciones.   
+            </h5>
+           
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/IdiomaTecladoObuntu.jpg">
+                                <img class="img-fluid" src="JPG/IdiomaTecladoObuntu.jpg" alt="IdiomaTeclado" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Seleccion de teclado</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+            
+            <h5 class="text-muted text-centera">
+            Seguimos con la instalación. El siguiente punto nos va a permitir elegir el tipo de instalación que queremos hacer.
+            Ubuntu nos ofrece dos tipos de instalación:
+                <ul>
+                <li>
+                <strong>Normal</strong>: instala una serie de programas esenciales para poder usar la distro para todo, desde navegar hasta
+                ofimática, juegos y multimedia.
+                </li>
+                <li>
+                <strong>Mínima</strong>: una instalación mucho más pequeña. Incluye navegador web y los paquetes mínimos necesarios
+                para funcionar.   
+                </li>
+                </ul>
+            La opción recomendada para la mayoría de los usuarios es la instalación normal. Además, aquí también 
+            podemos elegir si queremos <strong>bajar actualizaciones</strong> a la vez que instalamos el sistema operativo, o si 
+            queremos <strong>incluir el software privativo</strong> para instalar automáticamente los drivers de la GPU o de las 
+            tarjetas Wi-Fi, además de una serie de codecs privativos.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/Actualizacion.jpg">
+                                <img class="img-fluid" src="JPG/Actualizacion.jpg" alt="Actualizacion" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Actualizacion</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+            
+            <h2 class="text-center mt-0">
+                Crear particiones para Ubuntu
+            </h2>
+            
+            <h5 class="text-muted text-centera">
+                En el siguiente paso podremos elegir <strong>cómo instalar Ubuntu en el disco duro</strong>. Si tenemos otro sistema operativo
+                ya instalado, el asistente nos dará la opción de instalarlo junto a él. De lo contrario, nos permitirá borrar
+                todo el disco y configurarlo automáticamente para instalar la distro en él. Eso sí, esta segunda opción 
+                borrará todos los datos que tengamos guardados en dicho disco duro para poder darle formato y crear la tabla 
+                de particiones estándar.
+            </h5>
+          
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/TipoInstalacion.jpg">
+                                <img class="img-fluid" src="JPG/TipoInstalacion.jpg" alt="TipoInstalacion" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Tipo de instalación</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+           
+            <h5 class="text-muted text-centera">
+                El asistente de instalación nos permite elegir si queremos usar un sistema de <strong>cifrado de datos</strong>, 
+                además de activar una opción experimental para usar un <strong>sistema de archivos ZFS</strong>.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/CaracteristicasAvanzadas.jpg">
+                                <img class="img-fluid" src="JPG/CaracteristicasAvanzadas.jpg" alt="CaracteristicasAvanzadas" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Caracteristicas Avanzadas</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+            
+            <h5 class="text-muted text-centera">
+                Si elegimos <strong>«Más opciones»</strong> en vez de utilizar todo el disco, podremos abrir el gestor de particiones de Ubuntu.
+                Y desde aquí podremos crear las particiones que queramos usar. Esto es recomendable para usuarios que tengan
+                 cierto nivel de conocimientos. Si no los tenemos, lo mejor es optar por el modo automático.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/CrearParticion.jpg">
+                                <img class="img-fluid" src="JPG/CrearParticion.jpg" alt="CrearParticion" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Crear Particion</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+            
+            <h5 class="text-muted text-centera">
+            Si elegimos el modo automático os recomendamos crear, al menos, las siguientes particiones:
+            <ul>
+                <li>
+                   / – Raíz de la distro Linux.
+                </li>
+                <li>
+                   /home – donde guardaremos todos nuestros datos personales. Tiene que ser la partición de más tamaño.
+                </li>
+                <li>
+                   /boot – lugar donde instalaremos el gestor de arranque.
+                </li>
+            </ul>
+            
+                Cuando esté todo listo, haremos clic sobre <strong>«Instalar ahora»</strong> para comenzar el proceso de instalación.
+                Y podremos ver un resumen con las particiones y puntos de montaje que vamos a usar.
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/EscribirDiscos.jpg">
+                                <img class="img-fluid" src="JPG/EscribirDiscos.jpg" alt="EscribirDiscos" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Escribir Discos</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+           
+            <div class="container-fluid text-white">.</div>
+            
+            <h5 class="text-muted text-centera">
+                Si todo está correcto, continuamos y comenzará la copia de los datos del sistema operativo. Pero, 
+                aunque ya se estén copiando los archivos, aún no hemos acabado de configurar Ubuntu.
+            </h5>
+           
+            <h2 class="text-center mt-0">
+               Últimos pasos para terminar la instalación  
+            </h2>
+            
+            <h5 class="text-muted text-centera">
+                Mientras se copian los datos de nuestro Ubuntu y se aplican las configuraciones seleccionadas
+                tendremos que terminar algunas configuraciones esenciales. La primera de ellas será <strong>elegir
+                   nuestra región</strong>, dónde vivimos. Esto se usará para ajustar el sistema métrico, el huso horario
+                y la moneda utilizada.  
+            </h5>
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/Ubicacion.jpg">
+                                <img class="img-fluid" src="JPG/Ubicacion.jpg" alt="Ubicacion" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Ubicacion</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+           
+            <div class="container-fluid text-white">.</div>
+            
+            
+            <h5 class="text-muted text-centera">
+                También tendremos que <strong>crear nuestro usuario principal</strong>. Este estará formado por un nombre de usuario,
+                una contraseña y el nombre que queremos dar al PC en red. También podemos elegir si queremos que 
+                se inicie sesión automáticamente o no.
+            </h5>
+            
+            <div class="container-fluid text-white">.</div> 
+            
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/CrearUsuario.jpg">
+                                <img class="img-fluid" src="JPG/CrearUsuario.jpg" alt="CrearUsuario" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Creacion de usuario</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+            
+            <h5 class="text-muted text-centera">
+                Listo. Ya hemos configurado Ubuntu. Ahora solo nos queda <strong>esperar a que se complete el proceso de 
+                instalación</strong> del sistema operativo. Este puede tardar más o menos según el hardware del PC y
+                si hemos elegido bajar, o no, las actualizaciones durante este proceso. Mientras dura la instalación podremos
+                ver algunas de las características y usos de Ubuntu. 
+            </h5>
+              
+            <h5 class="text-muted text-centera">
+               Cuando acabe el proceso de copia de los datos podremos ver un mensaje como el siguiente que nos indicará 
+               que nuestro Ubuntu se ha instalado correctamente y que tendremos que reiniciar el PC para terminar con 
+               la instalación y poder empezar a usar este nuevo sistema operativo.
+            </h5>
+           
+            <div id="portfolio">
+                <div class="container-fluid  p-0">
+                    <div class="row">
+                      
+                         <div class="col-md-4"></div>
+                        <div class="col-lg-4 col-sm-6">
+                            <a class="portfolio-box" href="JPG/Terminada.jpg">
+                                <img class="img-fluid" src="JPG/Terminada.jpg" alt="Terminada" />
+                                <div class="portfolio-box-caption">
+                                    <div class="project-category text-white-50">Instalacion de Ubuntu</div>
+                                    <div class="project-name">Terminando</div>
+                                </div>
+                            </a>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid text-white">.</div>
+        
+           
+            <h5 class="text-muted text-centera">
+                Tras reiniciar el ordenador ya tendremos nuestro Ubuntu instalado y listo para funcionar. En un principio, 
+                Ubuntu será totalmente funcional. No tendremos que hacer nada para empezar a usar este sistema operativo.   
+            </h5>
+            
+            <div class="container-fluid text-white">.</div>
         </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
+            <!-- Recomendaciones-->
+       
+            <section class="page-section bg-dark text-white">
             <div class="container text-center">
-                <h2 class="mb-4">Quiere disfrutar al maximo la actualizacion?</h2>
+                <h2 class="mb-4">Quiere disfrutar al maximo la instalacion de Ubuntu?</h2>
                 <a class="btn btn-light btn-xl" href="Recomendaciones.html">Recomendaciones</a>
             </div>
         </section>
-        <!-- Contact-->
+        
+        <!-- Contacto-->
+        
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="row justify-content-center">
@@ -169,7 +506,7 @@
                         <a class="d-block" href="mailto:juanfe224@protonmail.com">juanfe224@protonmail.com</a>
                     </div>
                 </div>
-            </div>
+            
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
