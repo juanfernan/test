@@ -26,12 +26,12 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Recomendaciones.html">Recomendaciones</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="RecomendacionesBS.html">Recomendaciones</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="InstalacionBS.html">Instalacion</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                 </div>
-            </div>
+             </div>
         </nav>
         <!-- Masthead-->
         <header class="masthead">
@@ -44,7 +44,7 @@
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 font-weight-light mb-5">Si aún no tiene instalado Ubuntu en tu ordenador 
                             y quieres dar una oportunidad a este sistema operativo tiene nuestra guia, paso a paso</p>
-                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="Instalacion.html">Instalacion desde 0</a>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="InstalacionBS.html">Instalacion desde 0</a>
                     </div>
                 </div>
             </div>
@@ -152,6 +152,58 @@
                 <a class="btn btn-light btn-xl" href="Recomendaciones.html">Recomendaciones</a>
             </div>
         </section>
+        
+        <!-- Adivinanza-->
+        
+        
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbarP">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Adivinanza <span class="sr-only"></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/index.html">Inicio <span class="sr-only"></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                </div>
+            </nav>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <h3>Mientras se descarga, hemos preparado una adivinanza para que responda:</h3>
+                </div>
+                <div class="col-5 ">
+                    <div class="d-flex justify-content-around ">
+                        
+                        <div class="p-2 justify-content-center"><h3>Intentos restantes:</h3></div>
+                        <div class="p-2" id="intentosMostrar"> <h3>4</h3></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7 ">
+                    <h5>¿En que año se creo la distro Obuntu?</h5>
+                    <br>
+                    <br>
+                    <div>
+                        <input type="number" id="respuestaObtenida" class="border border-primary">
+                        <br><br>
+                        <button type="button" class="btn btn-primary" onclick="contadorDeIntentos()" id="botonIntento" >Enviar</button>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div id="pistasDar" class="ayudas"></div>
+                </div>
+            </div>
+        </div>    
+       
+       
+       
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -166,13 +218,42 @@
                     <div class="mr-auto text-center">
                         <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
                         <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <a class="d-block" href="mailto:juanfe224@protonmail.com">juanfe224@protonmail.com</a>
+                        <a class="d-block" href="mailto:juanfe224@protonmail.com"></a>
                     </div>
                 </div>
             </div>
+            <!--Formulario-->
+            <div class="row justify-content-center">
+                <form style="width: 30%;">
+                    <div class="row">
+                        <input type="name" class="form-control" placeholder="Nombre" id="">
+    
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="name" class="form-control" placeholder="Apellido" id="">
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="email" class="form-control" placeholder="Email" id="emailHelp">
+    
+                    </div>
+                    <br>
+                    <div class="row">
+                        <textarea class="form-control" placeholder="Consulta"></textarea>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit" class="form-control">
+                    </div>
+                </form>
+            </div>
         </section>
+         
         <!-- Footer-->
         <footer class="bg-light py-5">
+       
+       
             <div class="container"><div class="small text-center text-muted">Pagina creada por Juan Ignacio Fernandez</div></div>
         </footer>
         <!-- Bootstrap core JS-->
